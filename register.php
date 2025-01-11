@@ -1,6 +1,5 @@
 <?php
-include('_system.site/_header.php');
-include('_system.site/_connect.php');
+include('_connect.php');
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
